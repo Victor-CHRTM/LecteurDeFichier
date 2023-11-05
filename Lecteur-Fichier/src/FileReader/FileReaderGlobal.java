@@ -74,7 +74,7 @@ public class FileReaderGlobal implements FileReader {
 
             // Afficher le résultat à l'écran
             for (String reversedLine : tabLignes) { //Pour chaque ligne de l'ArrayList tabLignes
-                System.out.println(reversedLine +"\n"); //On affiche les ligne une par une
+                System.out.println(reversedLine +"\n"); //On affiche les lignes une par une
             }
         } catch (IOException e) {
             System.err.println("Une erreur s'est produite lors de la lecture du fichier : " + e.getMessage() +"\n");
